@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FB477"
+    android:weightSum="4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_weight = "3"
+        android:id="@+id/grade"
+        android:text="1/10"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="100sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_weight = "1"
+        android:id="@+id/grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="something"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+</LinearLayout>
